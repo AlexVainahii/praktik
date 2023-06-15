@@ -11,7 +11,6 @@ import {
 
 export default function TodoList() {
     const todos = useSelector(getTodos)
-    console.log('todos', todos)
   return (
   <>
   {todos.length === 0 && (
